@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito:wght@500 & display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans empattement ;
+    color: #fff;
+}
+
+#first{
+    background-image: url(../img/fond2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 1px;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;    
+}
+
+nav ul li{
+    padding-right: 30px;
+    padding-left: 30px;
+    list-style-type: none;
+
+}
+
+h2{
+    color: #fff;
+    padding-left: 0px;
+}
+
+h2 span{
+    color: #0087c6;
+}
+
+.menu{
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: #0087c6;
+    border-bottom: 2px solid #0087c6;
+}
+.inscrit{
+
+    text-decoration: none;
+    border: solid 1px #0087c6;
+    background-color: #0087c6;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transform: scale(0.8);
+    transition: 0.4s;
+    margin-right: 50px;
+    display: block;
+}    
+.inscrit1{
+
+    text-decoration: none;
+    border: solid 1px #0087c6;
+    background-color: #0087c6;
+    border-radius: 1px;
+    padding: 10px 25px;
+    transform: scale(0.8);
+    transition: 0.4s;
+    margin-right: 50px;
+}
+
+.inscrit:hover, .inscrit1:hover{
+    background-color: #fff;
+    color: #0087c6;
+    border: solid 1px #0087c6;
+    transform: scale(0.9);
+}
+/*Interface*/
+.bienvenue{
+    position: absolute;
+    top: 60%;
+    left: 50px;
+}
+
+.bienvenue h4{
+    padding-bottom: 20px;
+    color: #0087c6;
+}
+
+.bienvenue h1{
+    padding-bottom: 15px;
+}
+.bienvenue h1 span{
+    color: #0087c6;
+}
+.bienvenue h3{
+    padding-bottom: 45px;
+}
+
+.metier {
+    display: flex;
+    justify-content: center;
+}
+
+.Metiers{
+    background-color: rgb(255, 255, 255);
+    padding-top: 60px;
+}
+
+.metier .metier1 {
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+.titreM{
+    text-align: center;
+    font-size: 2.8em;
+    color: #0087c6;
+}
+
+#titre{
+    color: #000000;
+}
+
+.icone1{
+    position: absolute;
+    left: 0px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 60px;
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    padding: 15px 25px;
+    padding-top: 60px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 35px rgba(1, 1, 1, 0.5);
+}
+
+.icone2{
+    position: absolute;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 60px;
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    padding: 15px 25px;
+    padding-top: 60px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 35px rgba(1, 1, 1, 0.5);
+}
+
+.icone3{
+    position: absolute;
+    right: 0px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 60px;
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    padding: 15px 25px;
+    padding-top: 60px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 35px rgba(1, 1, 1, 0.5);
+}
+
+.icone1 p, .icone2 p, .icone3 p {
+    margin-top: 25px;
+    margin-bottom: 65px;
+    color: #0087c6;
+}
+
+.icone1 a, .icone2 a, .icone3 a {
+    text-decoration: none;
+    background-color: #0087c6;
+    border-radius: 30px;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    border: solid 1px #0087c6;
+}
+.icone1 a:hover, .icone2 a:hover, .icone3 a:hover{
+        background-color: rgb(24, 24, 24);
+        transition: ease-out;
+        color: #fff;
+}
+
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo a img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 8px;
+}
+
+@media screen and (max-width: 900px){
+    nav ul{
+        display: none;
+    }
+
+    #first {
+        background-image: url(../img/fond3.jpg);
+        background-position: inherit;
+        background-size: cover;
+        width: 100vmax;
+        height: 100vh;
+    }
+
+    .icone1{
+        margin-right: 100px;
+    }
+
+    .icone2{
+        margin-top: 500px;
+        margin-right: -0px;
+    }
+
+    .icone3{
+        margin-top: 1000px;
+        margin-right: -0px;
+    }
+
+    .inscrit{
+        display: none;
+    }
+
+}
